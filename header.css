@@ -85,3 +85,44 @@ header{
     height: 50px;
     /*padding: 2px 0;    */
 }
+#nave{
+    background-color: #ffF;
+    
+}
+
+#nave ul{
+    position: relative;
+    list-style: none;
+}
+#nave li{
+    display: inline-block;
+}
+#nave a{
+    text-decoration: none;
+    padding: 12px 0;
+    margin-left: 50px;
+    color: #000;
+    letter-spacing: 1px;
+    font-family: 'Open sans', sans-serif;  
+    font-size: 18px;
+
+}
+#nave ul li a:hover{
+    /*background-color: #fff;*/
+    color: #1cc0a0;
+    border-bottom: 2px solid #1cc0a0;
+}
+/* drop down */ 
+#nave .dropdown{
+    position: absolute;
+    margin-top: 7px;
+    background-color: #fff;
+    display: none;
+    z-index: 30;
+}
+#nave .dropdown li{
+    display: block;
+    margin-left: -40px;
+    text-align: center;
+    padding: 10px 5px;
+}
