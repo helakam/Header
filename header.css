@@ -126,3 +126,11 @@ header{
     text-align: center;
     padding: 10px 5px;
 }
+.dropdown li:hover{
+    /*background-color: #fff;*/
+    /* color:  */
+}
+
+#nave li:hover > .dropdown, li:hover{
+    display: block;
+}
