@@ -14,3 +14,27 @@
             <i class="fa fa-heart" aria-hidden="true"></i>
             <i class="fa fa-shopping-cart" aria-hidden="true"></i>
         </div>
+   </div>
+             <hr>
+
+<header>
+      <div id="nav">
+           <ul>
+        <li><a href="../index.php">Home</a></li>
+        <li><a href="servicepage.php">Services</a></li>
+        <li><a href="">Category</a>
+            <ul class="dropdown">
+                <li><a href="catogery\cat1.php">Home & Living</a></li>
+                <li><a href="catogery\cat2.php">Arts & Crafts</a></li>
+                <li><a href="catogery\cat3.php">Tools & Home Improvement</a></li>
+                <li><a href="catogery\cat4.php">Home Gardening</a></li>
+                <li><a href="catogery\cat5.php">Toys & Educational</a></li>
+                <li><a href="catogery\cat6.php">Kitchen & Dining</a></li>
+            </ul>
+        </li>
+        <li><a href="">About us</a></li>
+       
+      </ul>  
+      </div>
+</header>
+             <hr>
